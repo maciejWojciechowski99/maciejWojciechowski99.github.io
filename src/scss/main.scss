@@ -1,228 +1,44 @@
 @import "~normalize.css";
 
 @import "_variables";
-@import "modules/hello.scss";
+@import "modules/hero.scss";
+@import "modules/skills.scss";
+@import "modules/project.scss";
+@import "modules/contact.scss";
+@import "modules/socials.scss";
 
-//nunito font-family: 'Nunito', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&family=Roboto+Mono:wght@400;700&display=swap');
 
 body {
   background: #fff;
-  color:#234361;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  font-family: Nunito;
+  color:$text;
 }
 
-.emoji{
-  font-size:55px;
-  font-family: Helvetica;
-  font-style: normal;
-  margin-top: 28px;
-}
-
-.card1{
-  width: auto;
-  height: 722px;
-}
-
-.card2{
-  width: auto;
-  height: auto;
-  background-color: #1070CA;
-}
-
-.card3{
-  width: auto;
-  height: auto;
-  background-color: #fff;
-}
-
-.card4{
-  width: auto;
-  height: auto;
-  background-color: #DBEAF7;
-}
-
-.hello_span--header{
-  color:#1070CA;
-}
-
-.hello_section{
- display: flex;
- flex-direction: column;
- align-items: center;
-}
-
-.picture{
+.hero__image--photo{
   width: 156px;
   height: 156px;
   border-radius: 50%;
   margin-top: 36px;
   margin-bottom: 36px;
 }
-
-.hello_section--p1{
-  color:#234361;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  text-align: center;
-  margin: 16px 16px;
-
+ /*
+@keyframes handRotate{
+  0%{
+    transform:rotate(0deg)
+  }
+  50%{
+    transform:rotate(40deg)
+  }
+  100%{
+    transform:rotate(0deg)
+  }
 }
-
-.hello_section--p2{
-  color:#425A70;
-  font-family: 'Nunito', sans-serif;
-  text-align: center;
-  font-weight: 300;
-  line-height: 32px;
-  margin: 16px 16px;
-}
-
-.hello_section--p3{
-  background-color:#4DA8FF;
-  color:white;
-  font-size: 16px;
-  padding: 4px 24px;
-  border-radius: 64px;
-  font-family: 'Nunito', sans-serif;
-  text-align: center;
-  margin: 16px 16px ;
-}
-
-.hello_section2{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- }
-
-.hello_section2--p1{
-  font-family: 'Nunito', sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  color:#fff;
-
-}
-
-.hello_section2--p2{
-  font-family: 'Nunito', sans-serif;
-  font-weight: 300;
-  font-size: 24px;
-  color:#fff;
-
-}
-
-.hello_section2--p3{
-  font-family: 'Nunito', sans-serif;
-  font-weight: 300;
-  font-size: 24px;
-  color:#fff;
-
-}
-
-ul{
-  list-style-image: url("../assets/img/small-tick.png");
-  padding: 25px;
-}
-
-.ul2{
-  list-style-image: url("../assets/img/small-tick-grey.png");
-  padding: 25px;
-}
-
-.ul3{
-  list-style-image: url("../assets/img/bullet.png");
-  padding: 25px;
-}
-
-li{
-  font-family: 'Nunito', sans-serif;
-  color: #DBEAF7;
-  font-weight: 300;
-  line-height: 34px;
-}
-
-.hello_section3{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- }
- 
-.hello_section3--p1{
-  font-family: 'Nunito', sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  color: #234361;
-}
-.hello_section3--p2{
-  font-family: 'Nunito', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  color: #425A70;
-  text-align: center;
-  line-height: 32px; 
-  margin: 16px 16px;
-
-}
-
-.hello_section4{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- }
- 
-.hello_section4--p1{
-  font-family: 'Nunito', sans-serif;
-  font-weight: 700;
-  font-size: 36px;
-  color: #234361;
-}
-.hello_section4--p2{
-  font-family: 'Nunito', sans-serif;
-  font-weight: 300;
-  font-size: 24px;
-  color: #425A70;
-  text-align: center;
-  line-height: 32px; 
-  margin: 16px 16px;
-
-}
-
-.social{
-}
-
-.list--js{
-}
-
-.githubpic{
-  background-color: #212528;
-  width: 288px;
-  height: 320px;
-  border-radius:  16px 16px 16px 16px;
-}
-.githubpic__topbar{
-  background-color: #1E1E1E;
-  width: 288px;
-  height: 40px;
-  border-radius:  16px 16px 0px 0px;
-  margin-top:-20px;
-}
-
-.githubpic__circles{
-    
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: left;
-  margin-left: 14px;
-  font-size: 30px;
-  color:#464A4D;
-  font-weight: bold;
-  letter-spacing: 5px;
-}
-
-.githubpic__text{
-
-}
+.animate{
+  animation: handRotate 1.5s ease-in-out infinite;
+  font-size: 35px;
+  width: -20px;
+  margin: 10px 60px 0 60px;
+  display: block;
+*/
