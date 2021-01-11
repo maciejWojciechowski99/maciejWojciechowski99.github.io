@@ -1,5 +1,5 @@
 import '../scss/main.scss';
-console.log('HELLO 🚀');
+console.log('Hi, I am Maciek nice to meet you 🚀');
 
 fetch('https://api.github.com/users/maciejwojciechowski99/repos?sort=created&direction=asc')
 .then((res) => res.json())
@@ -27,13 +27,13 @@ fetch('https://api.github.com/users/maciejwojciechowski99/repos?sort=created&dir
                 <p class="project__grid" >
                 <span class="project__label">demo:</span>
                 <span>
-                    &lt;<a class="project__link" href="${homepage}" title="${name} - demo" target="_blank">see_here</a>&gt;
+                    &lt;<a class="project__link" href="${homepage}" title="${name} - demo" target="_blank" rel= "noopener noreferrer">see_here</a>&gt;
                 </span>
                 </p>
                 <p class="project__grid">
                 <span class="project__label">github:</span>
                 <span>
-                    &lt;<a class="project__link" href="${html_url}" title="${name} - code" target="_blank">source_code</a>&gt;
+                    &lt;<a class="project__link" href="${html_url}" title="${name} - code" target="_blank" rel= "noopener noreferrer">source_code</a>&gt;
                 </span>
                 </p>
             </div>
