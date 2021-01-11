@@ -189,3 +189,40 @@ li{
   margin: 16px 16px;
 
 }
+
+.social{
+}
+
+.list--js{
+}
+
+.githubpic{
+  background-color: #212528;
+  width: 288px;
+  height: 320px;
+  border-radius:  16px 16px 16px 16px;
+}
+.githubpic__topbar{
+  background-color: #1E1E1E;
+  width: 288px;
+  height: 40px;
+  border-radius:  16px 16px 0px 0px;
+  margin-top:-20px;
+}
+
+.githubpic__circles{
+    
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  margin-left: 14px;
+  font-size: 30px;
+  color:#464A4D;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.githubpic__text{
+
+}
