@@ -1,4 +1,4 @@
-![cover](https://maciejwojciechowski99.github.io/og-wtf.png)
+![cover](public/og-wtf.png)
 
 # Maciej wojciechowski - Junior Frontend Developer 
 
