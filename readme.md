@@ -6,9 +6,9 @@ My simple portfolio website
 
 ## Tools
 
--WTF Webpack starterkit
--HTML + CSS + JS
--Github API
+- WTF Webpack starterkit
+- HTML + CSS + JS
+- Github API
 
 ## Available scripts
 
